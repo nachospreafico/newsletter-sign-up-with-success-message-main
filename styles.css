@@ -11,6 +11,7 @@
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: white;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
@@ -23,6 +24,11 @@ body {
 }
 
 @media only screen and (max-width: 426px) {
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+    color: #292929;
+  }
   .container {
     display: grid;
     grid-template-rows: auto;
@@ -211,7 +217,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 426px) and (max-width: 1280px) {
+@media only screen and (min-width: 426px) and (max-width: 1279px) {
   .container {
     display: grid;
     grid-template-rows: auto;
@@ -400,7 +406,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1279px) {
   body {
     background-color: hsl(234, 29%, 20%);
   }
@@ -557,7 +563,7 @@ body {
 
   .success-wrapper {
     height: 100%;
-    padding: 7%;
+    padding: 4%;
     display: grid;
     grid-template-rows: 0.3fr 0.1fr 0.45fr 0.15fr;
     justify-items: left;
